@@ -58,9 +58,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 #    XtendedClearSystemOverlay \
 #    XtendedClearSystemUIOverlay
 
-# fonts
-#PRODUCT_COPY_FILES += \
-#    $(call find-copy-subdir-files,*,vendor/overlays/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+# Fonts
+PRODUCT_PACKAGES += \
+    CustomFonts
 
 # Gradient
 #PRODUCT_PACKAGES += \
