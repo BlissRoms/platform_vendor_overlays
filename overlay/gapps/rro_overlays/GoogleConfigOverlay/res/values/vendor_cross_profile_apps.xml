@@ -17,6 +17,13 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <!-- A list of apps to be allowed on the device across profiles.
+            Takes precedence over the allowed apps lists. -->
+    <string-array name="vendor_cross_profile_apps" translatable="false">
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.projection.gearhead</item>
+        <item>com.google.android.inputmethod.latin.dev</item>
+        <item>com.google.android.inputmethod.latin.canary</item>
+    </string-array>
 </resources>

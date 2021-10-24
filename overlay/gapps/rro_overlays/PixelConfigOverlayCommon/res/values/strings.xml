@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /*
 ** Copyright 2020, Raphielscape LLC. and Haruka LLC.
@@ -17,6 +17,6 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <string name="android_start_title">Pixel is starting…</string>
+    <string name="android_upgrading_title">Pixel is updating…</string>
 </resources>

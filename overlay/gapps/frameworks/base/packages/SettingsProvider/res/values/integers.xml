@@ -17,6 +17,7 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <!-- Default screen brightness, from 0 to 255.  102 is 40%. -->
+    <integer name="def_screen_brightness">82</integer>
+    <integer name="def_screen_off_timeout">30000</integer>
 </resources>

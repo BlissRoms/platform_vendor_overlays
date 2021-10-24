@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <dimen name="qs_brightness_margin_top">0.0dip</dimen>
 </resources>

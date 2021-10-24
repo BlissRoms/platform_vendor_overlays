@@ -17,6 +17,5 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <string name="def_backup_transport">com.google.android.gms/.backup.BackupTransportService</string>
 </resources>

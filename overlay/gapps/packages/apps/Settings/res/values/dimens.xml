@@ -17,6 +17,7 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <dimen name="search_bar_card_elevation">1.0dip</dimen>
+    <dimen name="search_bar_corner_radius">8.0dip</dimen>
+    <dimen name="search_bar_margin">8.0dip</dimen>
 </resources>

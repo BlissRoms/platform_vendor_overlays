@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2020, Raphielscape LLC. and Haruka LLC.
+** Copyright 2021, Raphielscape LLC. and Haruka LLC.
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,6 +16,12 @@
 */
 -->
 <resources>
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <dimen name="sud_items_icon_size">24.0dip</dimen>
+    <dimen name="sud_items_margin_inbetween">56.0dip</dimen>
+    <dimen name="sud_items_margin_top">48.0dip</dimen>
+    <dimen name="sud_items_summary_margin_start">0.0dip</dimen>
+    <dimen name="sud_items_summary_margin_top">24.0dip</dimen>
+    <dimen name="terms_disclaimer_content_margin_bottom">24.0dip</dimen>
+    <dimen name="terms_disclaimer_content_margin_top">16.0dip</dimen>
+    <dimen name="terms_disclaimer_header_vertical_margin">24.0dip</dimen>
 </resources>
