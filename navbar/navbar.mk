@@ -21,19 +21,19 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayHidden
 
 # Pill radius
-PRODUCT_PACKAGES += \
-    GesturalNavigationRadiusLow \
-    GesturalNavigationRadiusVeryLow \
-    GesturalNavigationRadiusHidden
+#PRODUCT_PACKAGES += \
+#    GesturalNavigationRadiusLow \
+#    GesturalNavigationRadiusVeryLow \
+#    GesturalNavigationRadiusHidden
 
 # Themes
-PRODUCT_PACKAGES += \
-    NavbarAsusOverlay \
-    NavbarOnePlusOverlay \
-    NavbarOneUiOverlay \
-    NavbarTecnoCamonOverlay \
-    NavbarAndroidOverlay \
-    NavbarMotoOverlay \
-    NavbarNexusOverlay \
-    NavbarOldOverlay \
-    NavbarSammyOverlay
+#PRODUCT_PACKAGES += \
+#    NavbarAsusOverlay \
+#    NavbarOnePlusOverlay \
+#    NavbarOneUiOverlay \
+#    NavbarTecnoCamonOverlay \
+#    NavbarAndroidOverlay \
+#    NavbarMotoOverlay \
+#    NavbarNexusOverlay \
+#    NavbarOldOverlay \
+#    NavbarSammyOverlay
