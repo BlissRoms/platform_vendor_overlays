@@ -73,3 +73,8 @@ include vendor/overlays/navbar/navbar.mk
 
 # RRO Overlays
 include vendor/overlays/rro_overlays/rro_overlays.mk
+
+# UDFPS Resources
+ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+include vendor/overlays/UDFPS/udfps.mk
+endif
