@@ -69,11 +69,12 @@ include vendor/overlays/navbar/navbar.mk
 #include vendor/overlays/rounded/rounded.mk
 
 # RRO Overlays
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
 #    CustomConfigOverlay \
 #    CustomLauncherOverlay \
 #    CustomSettingsOverlay \
 #    CustomPixelLauncherOverlay \
+     FrameworksResCommon \
 
 # System themes
 PRODUCT_PACKAGES += \
