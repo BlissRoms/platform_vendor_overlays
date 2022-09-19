@@ -75,6 +75,7 @@ PRODUCT_PACKAGES += \
 #    CustomSettingsOverlay \
 #    CustomPixelLauncherOverlay \
      FrameworksResCommon \
+     SystemUIResCommon \
 
 # System themes
 PRODUCT_PACKAGES += \
