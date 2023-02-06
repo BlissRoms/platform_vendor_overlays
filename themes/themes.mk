@@ -1,3 +1,4 @@
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay 
+    AndroidBlackThemeOverlay \
+    AndroidClearThemeOverlay
