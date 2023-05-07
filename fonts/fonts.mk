@@ -14,44 +14,82 @@
 
 # Fonts
 LOCAL_PATH := vendor/overlays/fonts
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
-# Fonts Overlays
 PRODUCT_PACKAGES += \
-    FontAclonicaSourceOverlay \
-    FontAmaranteSourceOverlay \
-    FontAntipastoProSourceOverlay \
-    FontBariolSourceOverlay \
-    FontCagliostroSourceOverlay \
-    FontCoconSourceOverlay \
-    FontComfortaaSourceOverlay \
-    FontCoolstorySourceOverlay \
-    FontComicSansSourceOverlay \
-    FontEvolveSansSourceOverlay \
-    FontExotwoSourceOverlay \
-    FontFifa2018SourceOverlay \
-    FontFucekSourceOverlay \
-    FontGoogleSansSourceOverlay \
-    FontGoogleSansMediumSourceOverlay \
-    FontGrandHotelSourceOverlay \
-    FontLemonMilkSourceOverlay \
-    FontLGSmartGothicSourceOverlay \
-    FontLinotte \
-    FontNokiaPureSourceOverlay \
-    FontNotoSerifSourceOverlay \
-    FontNunitoSourceOverlay \
-    FontOdudaSourceOverlay \
-    FontOneplusSlateSource \
-    FontQuandoSourceOverlay \
-    FontRedressedSourceOverlay \
-    FontReemKufiSourceOverlay \
-    FontRosemarySourceOverlay \
-    FontSamsungOneSourceOverlay \
+    HarmonyOS-Sans-Italic.ttf \
+    HarmonyOS-Sans.ttf \
+    Lexend-VF.ttf \
+    Manrope-VF.ttf \
+    RobotoFallback-VF.ttf
+
+# Font overlays
+PRODUCT_PACKAGES += \
+    FontAccuratistOverlay \
+    FontAclonicaOverlay \
+    FontAmaranteOverlay \
+    FontArbutusSourceOverlay \
+    FontArvoLatoOverlay \
+    FontBariolOverlay \
+    FontCagliostroOverlay \
+    FontCoconOverlay \
+    FontComfortaaOverlay \
+    FontComicSansOverlay \
+    FontCooljazzOverlay \
+    FontCoolstoryOverlay \
+    FontEvolveSansOverlay \
+    FontExotwoOverlay \
+    FontFifa2018Overlay \
+    FontFluidSansOverlay \
+    FontFucekOverlay \
+    FontGoogleSansOverlay \
+    FontGrandHotelOverlay \
+    FontGoogleSansMediumOverlay \
+    FontHarmonySansOverlay \
+    FontInterSourceOverlay \
+    FontJTLeonorOverlay \
+    FontLGSmartGothicOverlay \
+    FontLemonMilkOverlay \
+    FontLinotteOverlay \
+    FontManropeOverlay \
+    FontMiSansOverlay \
+    FontNokiaPureOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNothingDotOverlay \
+    FontNotoSerifSource \
+    FontNunitoOverlay \
+    FontOdudaOverlay \
+    FontOnePlusSansOverlay \
+    FontOnePlusSlateOverlay \
+    FontOneUISansOverlay \
+    FontOppoSansOverlay \
+    FontOswaldOverlay \
+    FontProductSansVHOverlay \
+    FontQuandoOverlay \
+    FontRedressedOverlay \
+    FontReemKufiOverlay \
+    FontRobotoCondensedOverlay \
+    FontRobotoOverlay \
+    FontRosemaryOverlay \
+    FontRubikRubikOverlay \
+    FontSamsungOneOverlay \
+    FontSanFranciscoDisplayProSourceOverlay \
     FontSimpleDaySourceOverlay \
-    FontSonySketchSourceOverlay \
-    FontStoropiaSourceOverlay \
-    FontSurferSourceOverlay \
-    FontUbuntuSourceOverlay
+    FontSonySketchOverlay \
+    FontStoropiaOverlay \
+    FontSurferOverlay \
+    FontUbuntuOverlay \
+    FontCircularStdOverlay \
+    FontBlazmaHyperwaveOverlay \
+    FontCardelinaOverlay \
+    FontCookieRunOverlay \
+    FontGemsbuckPunkMonoObliqueOverlay \
+    FontGiganticFSHezaedrusOverlay \
+    FontJicaletaOverlay \
+    FontJustSansOverlay \
+    FontPunkMonoOverlay \
+    FontVladivostokOverlay \
+    FontDotComOverlay
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
