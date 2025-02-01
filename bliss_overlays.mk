@@ -24,6 +24,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
 
+# Primary Colors
+#include vendor/overlays/primary/primary_colors.mk
+
 # Fonts
 include vendor/overlays/fonts/fonts.mk
 
@@ -40,3 +43,16 @@ include vendor/overlays/rro_overlays/rro_overlays.mk
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 include vendor/overlays/UDFPS/udfps.mk
 endif
+
+# QS UI Style
+PRODUCT_PACKAGES += \
+    A11QSUI \
+    QSOutline \
+    QSTwoToneAccent \
+    QSTwoToneAccentTrans \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin
